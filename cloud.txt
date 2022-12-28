@@ -53,6 +53,36 @@ public class
 
 
 
+
+
+
+
+
 EPAM CLOUD DEVOPS
+
+@Application path("/claim")
+public class JavarxActivator extends Application
+
+@POST
+@consumes(mediatype.Application_URL ENCODED)
+public class 
+                 (@formparam("Clament")
+		@formparm("purpose")
+
+
+@GET
+@path{/"id"}
+@produces(mediatype.Application_XML)
+     public class
+				(@pathparam("id")
+
+
+@DELETE
+@PATH("/{id})
+@produces(mediatype.TEXT_PLAIN)
+	public class
+				@pathparam(" id")
+
+
 
 
