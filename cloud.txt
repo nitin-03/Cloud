@@ -1,0 +1,58 @@
+//@Transient
+
+@Notnull
+@size(max = 120)
+@pattern(reg exp= " ")
+@past(message= "only"
+@Digits(Integer= 3, fraction= 2)
+
+@entity
+@NamedQuery(name= "  ",query= "select c from Claim c left outer join fetch c.items where c.clamied =:param"
+@OnetoMany(mappedBy="clamed")
+
+@RolesAllowed(role.manager_role)
+@RolesAllowed(role.Employee_role)
+@RolesAllowed(role.Admin_role)
+
+Create a class::
+
+@Application path("/claim")
+public class JavarxActivator extends Application
+
+@POST
+@consumes(mediatype.Application_URL ENCODED)
+public class 
+                 (@formparam("Clament")
+		@formparm("purpose")
+
+
+@GET
+@path{/"id"}
+@produces(mediatype.Application_XML)
+     public class
+				(@pathparam("id")
+
+
+@DELETE
+@PATH("/{id})
+@produces(mediatype.TEXT_PLAIN)
+	public class
+				@pathparam(" id")
+
+
+@messageDriven
+
+
+
+
+
+
+
+@messagedriven(name=" "
+
+
+
+
+EPAM CLOUD DEVOPS
+
+
